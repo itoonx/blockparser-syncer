@@ -1,7 +1,12 @@
 {
     "bitcoin": {
-        "enable": true,
-        "mainnet": "/Users/thegod/Library/Application Support/Bitcoin/blocks/",
-        "testnet": "/Users/thegod/Library/Application Support/Bitcoin/testnet3/blocks/"
+        "mainnet": {
+            "collection_name": "bitcoin_mainnet",
+            "block_path": "/Users/thegod/Library/Application Support/Bitcoin/blocks/"
+        },
+        "testnet": {
+            "collection_name": "bitcoin_testnet",
+            "block_path": "/Users/thegod/Library/Application Support/Bitcoin/testnet3/blocks/"
+        }
     }
 }
